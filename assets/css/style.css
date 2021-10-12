@@ -53,41 +53,26 @@ header p:nth-of-type(2) {
 /* =======================
          Main Background
 ======================= */
-
 main section:first-child {
-    background-image: url(../img/portfolio2.jpg);
-    background-repeat: no-repeat;
-    background-position: absolute;
-    background-size: cover;
-    height:100vh;
-    width: 100vw;
+    background: url("../img/portfolio2.jpg") center/cover no-repeat;
+padding: 10vh 5vw 10vh 12vw;
+    
 }
 
 main section:nth-of-type(2) {
-    background-image: url(../img/portfolio3.png);
-    background-repeat: no-repeat;
-    background-position: absolute;
-    background-size: cover;
-    height:100vh;
-    width: 100vw;
+    background: url("../img/portfolio3.png") center/cover no-repeat;
+    padding: 10vh 5vw 10vh 12vw;
 }
 
 main section:nth-of-type(3) {
-    background-image: url(../img/portfolio4.jpg);
-    background-repeat: no-repeat;
-    background-position: absolute;
-    background-size: cover;
-    height:100vh;
-    width: 100vw;
+    background:url("../img/portfolio4.jpg") center/cover no-repeat;
+    padding: 10vh 5vw 10vh 12vw;
+    
 }
 
 main section:nth-of-type(4) {
-    background-image: url(../img/portfolio5.png);
-    background-repeat: no-repeat;
-    background-position: absolute;
-    background-size: cover;
-    height:100vh;
-    width: 100vw;
+    background: url("../img/portfolio5.png") center/cover no-repeat;
+    padding: 10vh 5vw 10vh 12vw;
 }
 
 /* =======================
@@ -102,12 +87,14 @@ main section:nth-of-type(odd) p{
     font-size: 20px;
     padding:10vh 0 0 10vw;
 }
+
 main section:nth-of-type(odd) h2{
     font-family: 'Didact Gothic', sans-serif;
     color: #FFFFFF;
     font-size: 100px;
     margin:60px 0 0 10vw;
 }
+
 main section:nth-of-type(odd) div{
     margin:50px;
     padding:20px;
@@ -168,7 +155,6 @@ main section:nth-of-type(even) div p{
     color: #666666;
     margin:1vh 0 0 65vw;
 }
-
 main section:nth-of-type(even) div a:hover{
     background-color:black;
     color:white;
